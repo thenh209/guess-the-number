@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESS THE NUMBER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <title id="title">NUMBERATES</title>
+        <h1 id="heading">  CAN YOU GUESS THE NUMBER THAT IN MY MIND FROM 1-100?</h1>
+        
+        <div class="inputcontainer">
+            <label id="textLabel" for="">Enter the number:</label>
+            <input  id="textBox"type="number"min="0" max="100">
+            <button type="submit"id="checkButton">Submit</button><br><br>
+            <form id="myform">
+             <button id="clearbutton" value="resetdata" onclick="fun()">RESTART</button>
+            </form>
+        </div>
+        
+        <div id="alltext">
+        <h2 id="livestext">
+            <label for="" id="attemptLabel">Lives:</label>
+            <span id="attemptCount">10</span>
+        </h2>
+        <div id="message"></div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

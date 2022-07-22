@@ -1,0 +1,34 @@
+body
+{
+    background-image:url(./assets/background.webp);
+    width:100vw;
+    height:100vh;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+}
+#winimg{
+    border-radius: 70px;
+     width:60vw;
+     height:60vh;
+     animation:  win 0.5s ease-in-out;
+     border: 5px solid green;
+}
+@keyframes win{
+    0%{
+        transform:translatex(-100%);
+    }
+}
+#gif2{
+    width: 25vw;
+    height: 30vh;
+    -webkit-transform:rotate(270deg);  
+    -moz-transform: rotate(270deg);  
+    -ms-transform: rotate(270deg);  
+    -o-transform: rotate(2709eg);  
+    transform: rotate(270deg);  
+}
+#gif1{
+    width: 25vw;
+    height: 30vh;
+}

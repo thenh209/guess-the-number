@@ -1,0 +1,28 @@
+body
+{   background-image:url(./assets/background.webp);
+    width:100vw;
+    height:100vh;
+}
+#loseimg{
+    border-radius: 70px;
+     width:70vw;
+     height:70vh;
+     border: 5px solid green;
+     animation:  lose 0.5s ease-in-out;
+}
+@keyframes lose{
+    0%{
+        transform:translatex(-100%);
+    }
+}
+#losetxt{
+    color: azure;
+    font-size:5em;
+    text-align: center;
+}
+#losetotalimg{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:center;
+}
